@@ -1,63 +1,48 @@
-# project_portfolio
-My project portfolio to display all of my projects! 
+# Data Analytics Portfolio
 
-FINAL PROJECT FOLDER: 
-# U.S. Treasury Data Pipeline & Analysis
+## About Me
 
-## Project Overview
+Hi! I'm Erika James, a Data Analytics student at Utah State University. I enjoy using data to solve problems, find patterns, and make information easier to understand.
 
-This project uses Python and the U.S. Treasury Fiscal Data API to collect and organize daily Treasury deposit and withdrawal data.
+I'm especially interested in the connection between data analytics and business decision-making. Through my coursework and personal projects, I've gained experience working with real-world data, building data pipelines, creating visualizations, and using statistical models to answer business questions. My favorite thing to do with data is make it easy to understand and create visualizations that anyone can understand 
 
-The goal of the project was to build an automated data pipeline that can retrieve financial data, clean it, store it in a CSV file, and keep the dataset updated without needing to manually download new data.
+This portfolio highlights some of the projects I've completed while developing my skills in data analytics.
 
-## What the Program Does
-
-The program:
-
-- Connects to the U.S. Treasury Fiscal Data API
-- Retrieves Treasury deposit and withdrawal records from January 2024 to the present
-- Handles API pagination to collect large amounts of data
-- Cleans and validates dates and transaction amounts using pandas
-- Saves the cleaned data to a CSV file
-- Checks the most recent date already stored before requesting new data
-- Only pulls new records when the existing dataset needs to be updated
-- Removes duplicate and missing records before saving the data
-
-## Tools & Technologies
+## Technical Skills
 
 - Python
 - pandas
-- requests
-- REST API / JSON
+- SQL
+- Tableau
+- Excel
+- Power Query
 - Git & GitHub
-- Linux / GitHub Codespaces
+- REST APIs & JSON
+- Data Cleaning
+- Data Visualization
+- Regression & Statistical Modeling
 
-## Data
+## Projects
 
-The data comes from the U.S. Treasury Fiscal Data API's Daily Treasury Statement data.
+### Property Investment Analysis
 
-The dataset includes:
+Analyzed real estate data to help determine which properties represented the strongest investment opportunities. The project included exploratory data analysis, statistical modeling, clustering, and a final business recommendation.
 
-- Record date
-- Transaction type (deposit or withdrawal)
-- Transaction category
-- Daily transaction amount
+**Skills:** Python, pandas, data visualization, statistical modeling, clustering, business analysis
 
-## Why I Built This
+### U.S. Treasury Data Pipeline
 
-I created this project to practice working with real-world financial data and develop my skills in API integration, data cleaning, automation, and data analysis.
+Built a Python data pipeline using the U.S. Treasury Fiscal Data API to collect and process daily Treasury deposit and withdrawal records. The program cleans the data, stores it in a CSV file, and checks for new records so the dataset can stay up to date.
 
-One of my main goals was to create a process that could continue to update itself as new Treasury data becomes available rather than working with a static dataset.
+**Skills:** Python, pandas, REST APIs, JSON, data cleaning, automation, Git/GitHub
 
-## Skills Demonstrated
+## What I'm Currently Learning
 
-This project demonstrates experience with:
+I'm continuing to build my skills in regression analysis, statistical modeling, Python, and using data to support business decisions.
 
-- API data collection
-- Data cleaning and validation
-- Working with large datasets
-- API pagination
-- Python loops and error handling
-- pandas DataFrames
-- CSV data storage
-- Automating repeatable data processes
+## Contact
+
+I'm always interested in opportunities to continue learning and applying data analytics to real-world problems.
+
+- erikalynnjames@gmail.com
+- GitHub: erikajamess
